@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: aquamarine;
+    gap: 2em;
+}
+
+.traficLight {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 50px;
+    background-color: black;
+    gap: 20px;
+}
+.traficLight div{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+#red{
+    background-color: rgb(220, 8, 8);
+    opacity: 0.2;
+}
+#yellow{
+    background-color: rgb(227, 227, 10);
+    opacity: 0.2;
+}
+#green{
+    background-color: rgb(8, 107, 8);
+    opacity: 0.2;
+}
+button{
+    padding: 20px 50px;
+    background-color: black;
+    color: rgb(19, 105, 19);
+    border: 2px solid rgb(19, 105, 19);
+    cursor: pointer;
+}
